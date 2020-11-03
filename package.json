@@ -1,0 +1,24 @@
+{
+  "name": "javascript-bandersnatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon `which http-server --cors -p 8080 public/`",
+    "assets": "npx http-server --cors -p 8081 assets/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JairNunes/javascript-bandersnatch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  },
+  "dependencies": {
+    "ffbinaries": "^1.1.4",
+    "http-server": "^0.12.3"
+  }
+}
